@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: hsla(80, 77%, 53%, 1);
+
+background: radial-gradient(circle, hsla(80, 77%, 53%, 1) 0%, hsla(149, 70%, 43%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(80, 77%, 53%, 1) 0%, hsla(149, 70%, 43%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(80, 77%, 53%, 1) 0%, hsla(149, 70%, 43%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#a6e329", endColorstr="#21b96b", GradientType=1 );
+}
+.centrar{
+    text-align: center;
+    margin: auto;
+}
+h1{color: white}
+h2{color: #25a8e0;}
+
+#tabla{
+    margin: auto;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+th{
+    text-align: left;
+}
+.total{
+    font-weight: bold;
+}
+#tituloMayor{
+    vertical-align:90%;
+    color: white;
+    display: inline-block;
+}
+#titulomenor{
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+header{margin-top: 3%;}
+
+.acomodarLista{width: 50%; margin: auto auto 6% auto; text-align: center;}
+
+#mostrarIngresos{text-align: center; margin: 2% 0% 4% 0%;}
+#mostrarGastos{text-align: center; margin: 2% 0% 4% 0%;}
+#botonResumen{text-align: center; justify-content: center;}
